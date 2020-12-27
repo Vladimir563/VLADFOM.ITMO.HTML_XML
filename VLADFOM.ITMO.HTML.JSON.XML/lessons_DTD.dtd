@@ -1,0 +1,7 @@
+﻿<!ELEMENT modules (module+)>
+<!ELEMENT module (title, teacher, begin, end, cources)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT begin (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ELEMENT cources (#PCDATA)>

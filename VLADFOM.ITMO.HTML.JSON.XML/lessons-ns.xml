@@ -1,11 +1,35 @@
 ﻿<?xml version = "1.0" encoding ="utf-8"?>
+<modules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lessons_XML.xsd">
+  <module>
+    <title>ProgrammingTechnologies</title>
+    <teacher>Osipov</teacher>
+    <begin>2020-09-29</begin>
+    <end>2020-10-16</end>
+    <source>Software application development (руководство по разработке программного обеспечения)</source>
+  </module>
+  <module>
+    <title>Introduction in databases</title>
+    <teacher>Osetrova</teacher>
+    <begin>2020-11-09</begin>
+    <end>2020-11-20</end>
+    <source>SQL server basics</source>
+  </module>
+  <module>
+    <title>Windows application development on the C# platform</title>
+    <teacher>Smolyaninov</teacher>
+    <begin>2020-11-23</begin>
+    <end>2020-12-11</end>
+    <source>Основы Windows Presentation Foundation</source>
+  </module>
+  <module>
+    <title>Markable technology essential course</title>
+    <teacher>Smolyaninov</teacher>
+    <begin>2020-12-14</begin>
+    <end>2020-12-18</end>
+    <source>XML. Базовый курс</source>
+  </module>
+</modules>
+
 <!-- Создайте XML-документ, в котором самостоятельно опишите план (расписание) 
 дисциплин процесса Вашего обучения (например, название предмета, фамилию преподавателя, 
 время занятий, даты начала и окончания курсов и т.п.).-->
-<mynamespace:modules xmlns:mynamespace = "http://www.itmo.ru/xml/lessons" xmlns:sources_ns = "http://www.itmo.ru/xml/courses_sources">
-  <mynamespace:module title = "ProgrammingTechnologies" teacher = "Osipov" begin = "29.09.2020" end = "16.10.2020" sources_ns:sources = "Software application development (руководство по разработке программного обеспечения)"/>
-  <mynamespace:module title = "C# Programming" teacher = "Osipov" begin = "19.10.2020" end = "06.11.2020" sources = "VIA CLR (руководство по программированию на C#)"/>
-  <mynamespace:module title = "Introduction in databases" teacher = "Osetrova" begin = "09.11.2020" end = "20.11.2020" sources = ""/>
-  <mynamespace:module title = "Windows application development on the C# platform" teacher = "Smolyaninov" begin = "23.11.2020" end = "11.12.2020"/>
-  <mynamespace:module title = "Markable technology essential course" teacher = "Smolyaninov" begin = "14.12.2020" end = "18.12.2020"/>
-</mynamespace:modules>

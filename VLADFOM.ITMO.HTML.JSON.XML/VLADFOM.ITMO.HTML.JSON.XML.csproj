@@ -48,10 +48,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="lessons_DTD.dtd" />
+    <None Include="lessons_XML.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="library.dtd" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="lessons-ns.xml" />
+    <Content Include="library.xml" />
     <Content Include="resume.xml" />
     <Content Include="style.css" />
   </ItemGroup>

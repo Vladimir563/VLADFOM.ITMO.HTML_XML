@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+  
+  <book_catalog>
+    <book id="id8551226" year="2018" issue="translation">
+      <authors>
+        <author>Мартин Роберт</author>
+      </authors>
+      <title>Чистый код: создание, анализ и рефакторинг</title>
+      <publishing>Питер</publishing>
+    </book>
+    <book id="id7723622" year="2017" issue="translation">
+      <authors>
+        <author>Макконнелл С.</author>
+      </authors>
+      <title>Мастер-класс.Совершенный код.  &amp;</title>
+      <publishing>БХВ-Петербург</publishing>
+    </book>
+  </book_catalog>
+  
+  <author_catalog>
+    <author_book idref="id8551226"></author_book>
+    <author_book idref="id7723622"></author_book>
+  </author_catalog>
+
+</library>
