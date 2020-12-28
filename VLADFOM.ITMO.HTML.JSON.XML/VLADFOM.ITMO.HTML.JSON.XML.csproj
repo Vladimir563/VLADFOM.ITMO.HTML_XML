@@ -48,18 +48,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="lessons_DTD.dtd" />
-    <None Include="lessons_XML.xsd">
+    <None Include="XML\lessons_DTD.dtd" />
+    <None Include="XML\lessons_XML.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="library.dtd" />
+    <None Include="XML\library.dtd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="lessons-ns.xml" />
-    <Content Include="library.xml" />
-    <Content Include="resume.xml" />
-    <Content Include="style.css" />
+    <Content Include="HTML\images\bee1.jpg" />
+    <Content Include="HTML\images\button.jpg" />
+    <Content Include="HTML\classification.html" />
+    <Content Include="HTML\code.html" />
+    <Content Include="HTML\images\enot.jpg" />
+    <Content Include="HTML\ex1.html" />
+    <Content Include="HTML\ex2.html" />
+    <Content Include="HTML\ex3.html" />
+    <Content Include="HTML\ex4.html" />
+    <Content Include="HTML\ex5.html" />
+    <Content Include="HTML\ex6.html" />
+    <Content Include="HTML\ex7.html" />
+    <Content Include="HTML\findings.html" />
+    <Content Include="HTML\index.html" />
+    <Content Include="HTML\map.html" />
+    <Content Include="HTML\table.html" />
+    <Content Include="XML\lessons-ns.xml" />
+    <Content Include="XML\library.xml" />
+    <Content Include="XML\resume.xml" />
+    <Content Include="CSS\style.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
